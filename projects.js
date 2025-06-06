@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "TuneGrab",
       description:
         "TuneGrab is a Python application that allows users to download Spotify tracks and playlists as MP3 files using the Spotify API and yt-dlp. With a sleek, dark-themed GUI built with CustomTkinter, it offers an intuitive way to search, download, and manage your music collection.",
-      image: "Assests/tunegrab-scrn.png",
+      image: "Assets/tunegrab-scrn.png",
       overview: "Python Desktop Application Development",
       link: "https://github.com/yourusername/tunegrab", // Add your real link here
     },
@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "Temporary Email Generator",
       description:
         "A lightweight, frontend-based temporary email address generator and inbox viewer built with HTML, CSS, and vanilla JavaScript. Perfect for quick signups and testing without using your real email.",
-      image: "Assests/tempmail-scrn.png",
+      image: "Assets/tempmail-scrn.png",
       overview: "Frontend utility and productivity tool",
       link: "https://github.com/yourusername/tempmail", // Add your real link here
     },
@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "Workout App",
       description:
         "A cross-platform mobile app designed to help users track workouts, set fitness goals, and monitor progress. Features include exercise logging, progress charts, and personalized workout plans.",
-      image: "Assests/in-work.png", // Add your local image here
+      image: "Assets/in-work.png", // Add your local image here
       overview: "Cross-platform mobile development",
       link: "#", // Add your real link here
     },

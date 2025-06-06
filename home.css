@@ -73,7 +73,7 @@ body{
     width: 100%;
     background-image: 
     linear-gradient(rgba(0, 0, 0, 0.9), transparent, rgba(14, 14, 14, 0.9) 55%),
-    url("Assests/dot.png");
+    url("Assets/dot.png");
     background-size: cover; /* Ensure background scales responsively */
     background-position: center;
     background-repeat: repeat;
