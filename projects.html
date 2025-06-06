@@ -3,14 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
-    <link rel="stylesheet" href="home.css">    <script src="script.js" defer></script>
+    <title>Moses D</title>
+    <link rel="stylesheet" href="projects.css"> 
 </head>
 <body>
-    <!-- Splash Screen -->
-    <div id="splash-screen">
-        <div id="splash-logo">mosesfdo</div>
-    </div>
 
     <header>
         <nav>
@@ -19,8 +15,8 @@
 
             <div class="nav-links">
                 <ul>
-                    <li><a href="#"">Home</a>
-                    <li><a href="project.html">Projects</a>
+                    <li><a href="index.html"">Home</a>
+                    <li><a href="#">Projects</a>
                     <li><a href="about.html">About</a>
                 </ul>
             </div>
@@ -29,20 +25,31 @@
 
     <main>
 
-    <section class="hero-section wrapper">
-        <div class="main-text">
-            <h1>Moses is a CSE (AI & ML) 
-                student at Karunya University
-                from Thoothukudi with a growing 
-                focus on web development and a 
-                passion for building purposeful 
-                digital experiences.</h1>
-
+    <section class="projects-section wrapper">      
+          <div class="projects-heading">
+            <h1>Projects</h1>
+            <ul>
+                <li>
+                    <a href="#" target="" data-project="1">TuneGrab</a>
+                    <a href="#" target="" data-project="2">TempMail</a>
+                    <a href="#" target="" data-project="3">Workout App</a>
+                    <!--
+                    <a href="#" target="_blank" data-project="4">Project 4</a>
+                    <a href="#" target="_blank" data-project="5">Project 5</a>  -->
+                </li>
+            </ul>
+        </div>        <div>
+            <div class="project-card">
+                <div class="card-text" id="card-text">
+                
+                <h2 id="project-title">Project Title</h2>
+                <a id="project-link" href="#" target="_blank" style="display:block;margin-bottom:0.5em;">View Project</a>
+                <p id="project-description">Description of the project goes here. It should be concise and informative, giving an overview of what the project is about.</p>
+                
+                <p id="overview">Overview</p>
             </div>
-            
-            <div class="hero-section-2">
-                <div>
-                <p >while being lazy ofc.</p>
+                <div class="card">
+                    <img id="project-image" src="" alt="">
                 </div>
             </div>
         </div>
@@ -61,20 +68,19 @@
         <div class="footer-links">
             <h1>Links</h1>
             <ul>
-                <li><a href="/Assets/Resume.pdf" download>Resume↗</a></li>
+                <li><a href="Assests/resume.pdf" download>Resume↗</a></li>
                 <li><a href="#ReadCV" target="_blank">Read.cv↗</a></li>
-                <li><a href="#LinkedIn" target="_blank">LinkedIn↗</a></li>
-                <li><a href="#GitHub" target="_blank">GitHub↗</a></li>
+                <li><a href="https://www.linkedin.com/in/mosesfdo/" target="_blank">LinkedIn↗</a></li>
+                <li><a href="https://github.com/mosesfdo" target="_blank">GitHub↗</a></li>
             </ul>
         </div>
 
         <!--<h1>
             Accolades
         </h1>-->
-        
-        <p>&copy; 2025 mosesfdo. All rights reserved.</p>
-        
-    </footer>
+          <p>&copy; 2025 mosesfdo. All rights reserved.</p>
+          </footer>
     
+    <script src="projects.js"></script>
 </body>
 </html>

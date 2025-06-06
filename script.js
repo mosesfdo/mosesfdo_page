@@ -28,4 +28,26 @@ document.addEventListener('DOMContentLoaded', function() {
         }, 800);
         
     }, 2000); // Wait for pop animation to complete
+
+    // Smooth page transition for nav links
+    const navLinks = document.querySelectorAll('.nav-links a');
+
+    navLinks.forEach(link => {
+      link.addEventListener('click', function(e) {
+        const href = this.getAttribute('href');
+        // Only handle internal links
+        if (href && href.endsWith('.html')) {
+          e.preventDefault();
+          document.body.style.opacity = '0';
+          setTimeout(() => {
+            window.location.href = href;
+          }, 300);
+        }
+      });
+    });
+
+    window.addEventListener('pageshow', function() {
+      document.body.style.transition = 'opacity 0.3s';
+      document.body.style.opacity = '1';
+    });
 });
